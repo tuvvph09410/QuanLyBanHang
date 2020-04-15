@@ -24,7 +24,10 @@ public class SignUpActivity extends AppCompatActivity {
         edRepassword = findViewById(R.id.edRePassword);
         edHoten = findViewById(R.id.edHoten);
         edGhiChu = findViewById(R.id.edGhiChu);
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
     }
 
     public void dangKy(View view) {

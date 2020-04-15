@@ -21,11 +21,18 @@ import androidx.lifecycle.ViewModelProviders;
 import com.example.qlbanhang.R;
 
 public class SanPhamFragment extends Fragment {
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_sanpham, container, false);
+<<<<<<< HEAD
         moder();
+=======
+>>>>>>> upstream/master
         return root;
     }
 

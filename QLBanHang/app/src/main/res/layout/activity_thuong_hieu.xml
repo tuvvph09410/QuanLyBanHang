@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -19,6 +20,21 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
+=======
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.SanPham.ThuongHieu">
+
+    <ListView
+        android:id="@+id/lv_thuongHieu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+>>>>>>> upstream/master
     <ImageView
         android:id="@+id/btnAdd"
         android:layout_width="50dp"
@@ -29,4 +45,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.961"
         app:layout_constraintStart_toStartOf="parent" />
+<<<<<<< HEAD
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+</LinearLayout>
+
+
+>>>>>>> upstream/master
