@@ -19,7 +19,7 @@ public class ThuongHieu extends AppCompatActivity {
         setContentView(R.layout.activity_thuong_hieu);
         setTitle("Thương Hiệu");
 
-        lv_thuongHieu=findViewById(R.id.lv_thuongHieu);
+        lv_thuongHieu=findViewById(R.id.rcViewTH);
     }
 
     @Override

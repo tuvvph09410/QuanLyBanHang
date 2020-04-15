@@ -12,7 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
         <activity android:name=".ui.SanPham.ThemThuongHieu"
             android:parentActivityName=".ui.SanPham.ThuongHieu"/>
         <activity android:name=".ui.SanPham.ThuongHieu"
