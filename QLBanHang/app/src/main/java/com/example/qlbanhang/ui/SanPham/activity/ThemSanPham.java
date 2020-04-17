@@ -16,6 +16,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.example.qlbanhang.R;
+<<<<<<< HEAD:QLBanHang/app/src/main/java/com/example/qlbanhang/ui/SanPham/activity/ThemSanPham.java
 import com.example.qlbanhang.ui.SanPham.activity.Database;
 import com.example.qlbanhang.ui.SanPham.adapter.SanPhamAdapter;
 import com.example.qlbanhang.ui.SanPham.dao.SanPhamDAO;
@@ -23,6 +24,9 @@ import com.example.qlbanhang.ui.SanPham.model.SanPham;
 
 import java.util.ArrayList;
 import java.util.List;
+=======
+import com.example.qlbanhang.thuonghieu.ThuongHieuActivity;
+>>>>>>> upstream/master:QLBanHang/app/src/main/java/com/example/qlbanhang/ui/SanPham/ThemSanPham.java
 
 public class ThemSanPham extends AppCompatActivity {
     private EditText ed_nsx;
@@ -92,8 +96,13 @@ public class ThemSanPham extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id=item.getItemId();
+<<<<<<< HEAD:QLBanHang/app/src/main/java/com/example/qlbanhang/ui/SanPham/activity/ThemSanPham.java
         if (id == R.id.it_ThuongHieu){
             Intent intent=new Intent(ThemSanPham.this, ThuongHieu.class);
+=======
+        if (id == R.id.menuThuongHieu){
+            Intent intent=new Intent(ThemSanPham.this, ThuongHieuActivity.class);
+>>>>>>> upstream/master:QLBanHang/app/src/main/java/com/example/qlbanhang/ui/SanPham/ThemSanPham.java
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);

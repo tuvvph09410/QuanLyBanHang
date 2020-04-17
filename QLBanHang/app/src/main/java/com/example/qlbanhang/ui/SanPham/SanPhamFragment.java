@@ -16,6 +16,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.room.Room;
 import com.example.qlbanhang.R;
+<<<<<<< HEAD
 import com.example.qlbanhang.ui.SanPham.activity.Database;
 import com.example.qlbanhang.ui.SanPham.activity.ThemSanPham;
 import com.example.qlbanhang.ui.SanPham.adapter.SanPhamAdapter;
@@ -23,6 +24,9 @@ import com.example.qlbanhang.ui.SanPham.dao.SanPhamDAO;
 import com.example.qlbanhang.ui.SanPham.model.SanPham;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+=======
+import com.example.qlbanhang.thuonghieu.ThuongHieuActivity;
+>>>>>>> upstream/master
 
 import java.util.List;
 
@@ -89,6 +93,10 @@ public class SanPhamFragment extends Fragment {
         }
         if (id == R.id.it_themSp){
             Intent intent=new Intent(getActivity(), ThemSanPham.class);
+            startActivity(intent);
+        }
+        if (id == R.id.menuThuongHieu){
+            Intent intent=new Intent(getActivity(), ThuongHieuActivity.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);

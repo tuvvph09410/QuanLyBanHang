@@ -12,12 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".ui.SanPham.activity.ThemThuongHieu"
             android:parentActivityName=".ui.SanPham.activity.ThuongHieu"/>
         <activity android:name=".ui.SanPham.activity.ThuongHieu"
             android:parentActivityName=".ui.SanPham.activity.ThemSanPham"/>
         <activity android:name=".ui.SanPham.activity.GioHang"
             android:parentActivityName=".ui.SanPham.activity.ChiTietSanPham"/>
+=======
+        <activity android:name=".ui.SanPham.GioHang"
+            android:parentActivityName=".ui.SanPham.ChiTietSanPham"/>
+>>>>>>> upstream/master
         <activity
             android:name=".ui.SanPham.activity.SuaSanPham"
             android:parentActivityName=".ui.SanPham.activity.ChiTietSanPham" />
