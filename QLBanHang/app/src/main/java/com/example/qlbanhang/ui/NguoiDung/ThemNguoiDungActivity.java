@@ -30,7 +30,7 @@ public class ThemNguoiDungActivity extends AppCompatActivity {
         edHoten = findViewById(R.id.edHoten);
         edGhichu = findViewById(R.id.edGhiChu);
         list = new ArrayList<>();
-        database = Room.databaseBuilder(getApplicationContext(), Database.class, "NguoiDung").allowMainThreadQueries().build();
+        database = (Database) Room.databaseBuilder(getApplicationContext(),Database.class, "NguoiDung").allowMainThreadQueries().build();
 
         try {
             Intent intent = getIntent();
@@ -47,7 +47,7 @@ public class ThemNguoiDungActivity extends AppCompatActivity {
         String ten = edHoten.getText().toString();
         String ghiChu = edGhichu.getText().toString();
         NguoiDung nguoiDung = new NguoiDung(name, pw, ten, ghiChu);
-        long[] result = database.nguoiDungDAO().insertNguoiDung(nguoiDung);
+       long[] result = database.nguoiDungDAO().insertNguoiDung(nguoiDung);
         if (result[0] > 0) {
             Toast.makeText(this, "Thêm thành công", Toast.LENGTH_SHORT).show();
             this.list.add(nguoiDung);

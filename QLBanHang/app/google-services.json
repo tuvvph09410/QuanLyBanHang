@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "926925317641",
+    "firebase_url": "https://quanlyonlinemypham.firebaseio.com",
+    "project_id": "quanlyonlinemypham",
+    "storage_bucket": "quanlyonlinemypham.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926925317641:android:2329b7ce0e6cbc7c667ad8",
+        "android_client_info": {
+          "package_name": "com.example.qlbanhang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926925317641-rtuttsnaff9avnmunj4pg1ci093sresl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5JAbIJIUjm_sYht-NlbePUIaE3JsLD6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926925317641-rtuttsnaff9avnmunj4pg1ci093sresl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -56,7 +56,7 @@ public class NguoiDungFragment extends Fragment {
                 return 0;
             }
         };
-        database = Room.databaseBuilder(getActivity().getApplicationContext(),Database.class,"NguoiDung").allowMainThreadQueries().build();
+        database = (Database) Room.databaseBuilder(getActivity().getApplicationContext(),Database.class,"NguoiDung").allowMainThreadQueries().build();
         list=database.nguoiDungDAO().getAll();
         nguoiDungAdapter=new NguoiDungAdapter(list,getActivity().getApplicationContext());
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());

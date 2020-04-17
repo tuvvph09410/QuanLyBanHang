@@ -1,10 +1,11 @@
 package com.example.qlbanhang;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+
 import androidx.room.Room;
 
 import android.content.Intent;
-import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -23,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         edtUsername=findViewById(R.id.edtUsername);
         edtPassword=findViewById(R.id.edtPassword);
-        database = Room.databaseBuilder(getApplicationContext(), Database.class, "NguoiDung.db").allowMainThreadQueries().build();
+        database =Room.databaseBuilder(getApplicationContext(),Database.class, "NguoiDung.db").allowMainThreadQueries().build();
     }
 
     public void logIn(View view) {
